@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="548.8,2700.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="981.6,2700.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="82">
       <x:String>System.Activities</x:String>
@@ -116,7 +116,7 @@
     <ui:ReadRange AddHeaders="True" DataTable="[ZoneDT]" DisplayName="Read Range Zone" sap:VirtualizedContainerService.HintSize="496.8,97.6" sap2010:WorkflowViewState.IdRef="ReadRange_1" Range="[(&quot;A1:C10&quot;)]" SheetName="Zone" WorkbookPath="Data\Connected Office Test Data.xlsx" />
     <ui:ReadRange AddHeaders="True" DataTable="[CategoryDT]" DisplayName="Read Range Category" sap:VirtualizedContainerService.HintSize="496.8,97.6" sap2010:WorkflowViewState.IdRef="ReadRange_7" Range="[(&quot;A1:C6&quot;)]" SheetName="Category" WorkbookPath="Data\Connected Office Test Data.xlsx" />
     <ui:ReadRange AddHeaders="True" DataTable="[DeviceDT]" DisplayName="Read Range Device" sap:VirtualizedContainerService.HintSize="496.8,97.6" sap2010:WorkflowViewState.IdRef="ReadRange_6" Range="[(&quot;A1:F10&quot;)]" SheetName="Device" WorkbookPath="Data\Connected Office Test Data.xlsx" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Home Page - Connected Office: Device Management" sap:VirtualizedContainerService.HintSize="496,1736.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="d730ed21-ca75-4ecc-ac69-a87889f60abc" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Home Page - Connected Office: Device Management" sap:VirtualizedContainerService.HintSize="496.8,1736.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="d730ed21-ca75-4ecc-ac69-a87889f60abc" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -1580,6 +1580,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:WriteRange AddHeaders="False" DataTable="[TestResultsDT]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="496.8,125.6" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Test Results" StartingCell="[(&quot;A1:E24&quot;)]" WorkbookPath="Data\Connected Office Test Data.xlsx" />
+    <ui:WriteRange AddHeaders="False" DataTable="[TestResultsDT]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="496.8,125.6" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Test Results" StartingCell="[(&quot;A2:E24&quot;)]" WorkbookPath="Data\Connected Office Test Data.xlsx" />
   </Sequence>
 </Activity>
